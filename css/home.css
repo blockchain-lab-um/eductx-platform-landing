@@ -1,0 +1,27 @@
+.progress-bar-container {
+    position: relative;
+    padding: 5px;
+    /* Adjust the padding to control the distance from the card */
+}
+
+.progress-bar-border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 3px solid transparent;
+    border-radius: 5px;
+}
+
+.progress-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border: 3px solid #38B87E;
+    /* Green border */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
